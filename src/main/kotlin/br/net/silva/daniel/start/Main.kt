@@ -1,7 +1,9 @@
+package br.net.silva.daniel.start
+
 import br.net.silva.daniel.service.CalcularService
 import java.util.*
 
-//fun main(args: Array<String>) {
+//fun br.net.silva.daniel.start.main(args: Array<String>) {
 //    println("Hello World!")
 //    val list : MutableList<String> = ArrayList()
 //
@@ -19,7 +21,7 @@ import java.util.*
 //    println("Program arguments: ${args.joinToString()}")
 //}
 
-fun main(args : Array<String>) {
+fun main() {
     val service = CalcularService()
     var e : String
 
